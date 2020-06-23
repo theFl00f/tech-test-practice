@@ -42,3 +42,14 @@ for (int i = 0; i < len; i++) {
     print(nums[i]);
 }
 ```
+
+Starter function:
+
+```
+const removeDuplicates = function(nums) {
+
+}
+
+removeDuplicates([1,1,2]);
+removeDuplicates([0,0,1,1,1,2,2,3,3,4])
+```
