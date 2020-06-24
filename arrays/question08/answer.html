@@ -9,7 +9,23 @@
     Check the console ===>
     <script>
 
-        
+    const moveZeroes = function(nums) {
+        let length = nums.length;
+        for (let i = 0; i < length; i++) {
+            if (nums[i] === 0) {
+                nums.splice(i, 1);
+                nums.push(0);
+                i--;
+                length--;
+            }
+        }
+
+        return nums;
+    };
+    
+    moveZeroes([0,1,0,3,12])
+    moveZeroes([2,0,8,0,4,19,6,0,9])
+
     </script>
 </body>
 </html>
