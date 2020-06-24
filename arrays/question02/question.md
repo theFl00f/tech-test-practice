@@ -47,4 +47,8 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 const maxProfit = function(prices) {
     
 }
+
+maxProfit([7,1,5,3,6,4])
+maxProfit([1,2,3,4,5])
+maxProfit([7,6,4,3,1])
 ```

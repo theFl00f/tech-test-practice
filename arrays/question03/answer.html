@@ -9,7 +9,16 @@
     Check the console ===>
     <script>
 
-        
+    const rotate = function(nums, k) {
+        for (let i = 0; i < k; i++) {
+            const popped = nums.pop();
+            nums.unshift(popped)
+        }
+    };
+
+    rotate([1,2,3,4,5,6,7], 3)
+    rotate([-1,-100,3,99], 2)
+    
     </script>
 </body>
 </html>
